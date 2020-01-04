@@ -1,0 +1,11 @@
+import array as arr 
+n = int(input("Enter the number of elements in array: "))
+arry = []
+for i in range(0, n):
+    arry += arr.array('i', [int(input())])
+ele = int(input())
+ele1 = arr.array('i', [ele])
+arry +=  ele1
+print("\n")
+for i in range (0, len(arry)): 
+    print(arry[i])
